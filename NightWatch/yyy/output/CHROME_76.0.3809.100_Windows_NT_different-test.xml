@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="1"
+            tests="7">
+
+  <testsuite name="different-test"
+    errors="4" failures="1" hostname="" id="" package="different-test" skipped="0"
+    tests="7" time="94.29" timestamp="">
+  
+    <testcase name="Does not show the task list if there are no tasks" classname="different-test" time="12.04" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Does not show the footer if there are no tasks" classname="different-test" time="14.60" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On page load, it sets focus on the input field" classname="different-test" time="10.43" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="When I add a task, it shows todo items" classname="different-test" time="10.72" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Marks a todo item as completed by striking through it" classname="different-test" time="9.902" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Shows how many items there are left" classname="different-test" time="27.99" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Does not add empty or blank tasks" classname="different-test" time="8.609" assertions="2">
+
+      <failure message="Testing if element &lt;.todo-count&gt; contains text: &#34;1 item left&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;1 item left&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Does not add empty or blank tasks (D:\AutomationTraining\NightWatch\yyy\tests\different-test.js:68:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Does not add empty or blank tasks (D:\AutomationTraining\NightWatch\yyy\tests\different-test.js:68:15)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

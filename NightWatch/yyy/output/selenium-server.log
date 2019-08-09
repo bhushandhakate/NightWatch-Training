@@ -1,0 +1,361 @@
+12:37:13.493 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+12:37:13.620 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-08-08 12:37:13.754:INFO::main: Logging initialized @839ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:37:14.323 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+12:37:14.494 ERROR [BaseServer.start] - Port 4444 is busy, please choose a free port and specify it using -port option
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use: bind
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:221)
+	at org.openqa.selenium.remote.server.SeleniumServer.boot(SeleniumServer.java:131)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$buildLaunchers$3(GridLauncherV3.java:249)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$launch$0(GridLauncherV3.java:86)
+	at java.base/java.util.Optional.map(Unknown Source)
+	at org.openqa.grid.selenium.GridLauncherV3.launch(GridLauncherV3.java:86)
+	at org.openqa.grid.selenium.GridLauncherV3.main(GridLauncherV3.java:70)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.seleniumhq.jetty9.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	at org.seleniumhq.jetty9.server.ServerConnector.open(ServerConnector.java:307)
+	at org.seleniumhq.jetty9.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.seleniumhq.jetty9.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.seleniumhq.jetty9.server.Server.doStart(Server.java:395)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:202)
+	... 6 more
+t frameworks to prevent access by malicious code.
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 17064
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:21.897 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:22.404 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session b4facbd12ba7bb88d6a8b17ec42599c1 (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:23.788 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:23.837 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 549910bdc5e258cad8305e384b60df7e (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:23.866 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:23.899 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session debf1ed2cb1816bb4419e3759ebb5cef (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:26.520 INFO [ActiveSessions$1.onStop] - Removing session b4facbd12ba7bb88d6a8b17ec42599c1 (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:26.528 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:37:26.529 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 48328
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:27.509 INFO [ActiveSessions$1.onStop] - Removing session debf1ed2cb1816bb4419e3759ebb5cef (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:27.519 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "MicrosoftEdge",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:37:27.519 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 18794
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:32.923 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:32.952 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f9e43305d35cd771b5fd1ec564c34efb (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:34.654 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:34.680 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 10ca8af6f821c1443aec4dff2da3faeb (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:35.884 INFO [ActiveSessions$1.onStop] - Removing session 549910bdc5e258cad8305e384b60df7e (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:35.895 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:37:35.895 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 14660
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:36.900 INFO [OsProcess.destroy] - Unable to drain process streams. Ignoring but the exception being swallowed follows.
+org.apache.commons.exec.ExecuteException: The stop timeout of 2000 ms was exceeded (Exit value: -559038737)
+	at org.apache.commons.exec.PumpStreamHandler.stopThread(PumpStreamHandler.java:295)
+	at org.apache.commons.exec.PumpStreamHandler.stop(PumpStreamHandler.java:180)
+	at org.openqa.selenium.os.OsProcess.destroy(OsProcess.java:136)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:232)
+	at org.openqa.selenium.grid.session.remote.ServicedSession.stop(ServicedSession.java:85)
+	at org.openqa.selenium.remote.server.ActiveSessions.lambda$new$1(ActiveSessions.java:56)
+	at com.google.common.cache.LocalCache.processPendingNotifications(LocalCache.java:1811)
+	at com.google.common.cache.LocalCache$Segment.runUnlockedCleanup(LocalCache.java:3463)
+	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3439)
+	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3073)
+	at com.google.common.cache.LocalCache.remove(LocalCache.java:4234)
+	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4898)
+	at org.openqa.selenium.remote.server.ActiveSessions.invalidate(ActiveSessions.java:103)
+	at org.openqa.selenium.remote.server.WebDriverServlet.handle(WebDriverServlet.java:264)
+	at org.openqa.selenium.remote.server.WebDriverServlet.doDelete(WebDriverServlet.java:133)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:713)
+	at org.openqa.selenium.remote.server.WebDriverServlet.service(WebDriverServlet.java:114)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Unknown Source)
+12:37:36.901 ERROR [OsProcess.destroy] - Unable to kill process Process[pid=8556, exitValue=0]
+12:37:38.121 INFO [OsProcess.destroy] - Unable to drain process streams. Ignoring but the exception being swallowed follows.
+org.apache.commons.exec.ExecuteException: The stop timeout of 2000 ms was exceeded (Exit value: -559038737)
+	at org.apache.commons.exec.PumpStreamHandler.stopThread(PumpStreamHandler.java:295)
+	at org.apache.commons.exec.PumpStreamHandler.stop(PumpStreamHandler.java:181)
+	at org.openqa.selenium.os.OsProcess.destroy(OsProcess.java:136)
+	at org.openqa.selenium.os.CommandLine.destroy(CommandLine.java:153)
+	at org.openqa.selenium.remote.service.DriverService.stop(DriverService.java:232)
+	at org.openqa.selenium.grid.session.remote.ServicedSession.stop(ServicedSession.java:85)
+	at org.openqa.selenium.remote.server.ActiveSessions.lambda$new$1(ActiveSessions.java:56)
+	at com.google.common.cache.LocalCache.processPendingNotifications(LocalCache.java:1811)
+	at com.google.common.cache.LocalCache$Segment.runUnlockedCleanup(LocalCache.java:3463)
+	at com.google.common.cache.LocalCache$Segment.postWriteCleanup(LocalCache.java:3439)
+	at com.google.common.cache.LocalCache$Segment.remove(LocalCache.java:3073)
+	at com.google.common.cache.LocalCache.remove(LocalCache.java:4234)
+	at com.google.common.cache.LocalCache$LocalManualCache.invalidate(LocalCache.java:4898)
+	at org.openqa.selenium.remote.server.ActiveSessions.invalidate(ActiveSessions.java:103)
+	at org.openqa.selenium.remote.server.WebDriverServlet.handle(WebDriverServlet.java:264)
+	at org.openqa.selenium.remote.server.WebDriverServlet.doDelete(WebDriverServlet.java:133)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:713)
+	at org.openqa.selenium.remote.server.WebDriverServlet.service(WebDriverServlet.java:114)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	at java.base/java.lang.Thread.run(Unknown Source)
+12:37:38.123 ERROR [OsProcess.destroy] - Unable to kill process Process[pid=23508, exitValue=0]
+12:37:41.087 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:41.113 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 77f372e4ef64aa572909926322cad915 (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:44.448 INFO [ActiveSessions$1.onStop] - Removing session 10ca8af6f821c1443aec4dff2da3faeb (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:44.459 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "MicrosoftEdge",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:37:44.459 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 14737
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:47.449 INFO [ActiveSessions$1.onStop] - Removing session f9e43305d35cd771b5fd1ec564c34efb (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:47.456 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:37:47.456 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 38517
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:50.487 INFO [ActiveSessions$1.onStop] - Removing session 77f372e4ef64aa572909926322cad915 (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:50.498 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:37:50.498 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 34137
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:37:51.213 ERROR [OsProcess.destroy] - Unable to kill process Process[pid=15124, exitValue=0]
+12:37:53.930 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:54.201 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8712b5fe5b22031610396d9600f7ff3d (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:54.511 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:54.544 ERROR [OsProcess.destroy] - Unable to kill process Process[pid=25016, exitValue=0]
+12:37:54.623 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session aadd03471cf1f435eccfe35d99fc9aa7 (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:54.819 ERROR [OsProcess.destroy] - Unable to kill process Process[pid=26344, exitValue=0]
+12:37:57.283 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:37:57.301 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 1c6f494c6f755aa9e0685d0918654ab6 (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:59.958 INFO [ActiveSessions$1.onStop] - Removing session 8712b5fe5b22031610396d9600f7ff3d (org.openqa.selenium.chrome.ChromeDriverService)
+12:37:59.983 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "MicrosoftEdge",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Duck Duck Go"
+}
+12:37:59.983 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 21172
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:38:00.923 INFO [ActiveSessions$1.onStop] - Removing session 1c6f494c6f755aa9e0685d0918654ab6 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:00.931 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:38:00.931 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 10422
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:38:05.343 INFO [ActiveSessions$1.onStop] - Removing session aadd03471cf1f435eccfe35d99fc9aa7 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:05.366 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Duck Duck Go"
+}
+12:38:05.366 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 29662
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:38:06.486 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:38:06.518 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session bc31c4e7d425b69e51dc61ed426d2434 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:07.536 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:38:07.557 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session ecae780aa0838d2577ab593ddc5d46a9 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:07.876 ERROR [OsProcess.destroy] - Unable to kill process Process[pid=24088, exitValue=0]
+12:38:10.284 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:38:10.299 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session dc41a25c1657bcc65b10e868af8d9c59 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:11.644 INFO [ActiveSessions$1.onStop] - Removing session bc31c4e7d425b69e51dc61ed426d2434 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:11.651 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:38:11.651 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 2453
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:38:16.487 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:38:16.503 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 0c5908b21062b688ce274c72682bdfb1 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:21.546 INFO [ActiveSessions$1.onStop] - Removing session 0c5908b21062b688ce274c72682bdfb1 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:21.552 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:38:21.553 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 25697
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:38:24.649 INFO [ActiveSessions$1.onStop] - Removing session dc41a25c1657bcc65b10e868af8d9c59 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:24.857 INFO [ActiveSessions$1.onStop] - Removing session ecae780aa0838d2577ab593ddc5d46a9 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:26.405 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:38:26.421 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8ee9d5b1baa0c69d347ea7079c45c712 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:49.535 INFO [ActiveSessions$1.onStop] - Removing session 8ee9d5b1baa0c69d347ea7079c45c712 (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:49.542 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Different Test"
+}
+12:38:49.542 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 20933
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:38:54.001 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:38:54.020 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 82635ed4391fe2fb4003ef9a5048c24e (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:58.153 INFO [ActiveSessions$1.onStop] - Removing session 82635ed4391fe2fb4003ef9a5048c24e (org.openqa.selenium.chrome.ChromeDriverService)
+12:38:58.177 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "firefox",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Duck Duck Go"
+}
+12:38:58.177 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 31603
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.

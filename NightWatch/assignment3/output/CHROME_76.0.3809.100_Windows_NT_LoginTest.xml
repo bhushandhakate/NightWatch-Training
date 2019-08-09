@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="1"
+            tests="1">
+
+  <testsuite name="LoginTest"
+    errors="4" failures="1" hostname="" id="" package="LoginTest" skipped="0"
+    tests="1" time="30.16" timestamp="">
+  
+    <testcase name="VERIFY LOGIN WITH BLANK USERNAME AND PASSWORD" classname="LoginTest" time="30.16" assertions="1">  <failure message="Testing if element &lt;#errormessage&gt; contains text: &#34;User name or password is not correct.&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;User name or password is not correct.&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.VERIFY LOGIN WITH BLANK USERNAME AND PASSWORD (D:\AutomationTraining\NightWatch\assignment3\tests\LoginTest.js:86:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.VERIFY LOGIN WITH BLANK USERNAME AND PASSWORD (D:\AutomationTraining\NightWatch\assignment3\tests\LoginTest.js:86:15)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

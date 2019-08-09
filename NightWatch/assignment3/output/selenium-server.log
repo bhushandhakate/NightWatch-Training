@@ -1,0 +1,26 @@
+12:35:26.644 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+12:35:26.758 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-08-08 12:35:26.877:INFO::main: Logging initialized @656ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:35:27.254 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+12:35:27.462 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+12:35:28.149 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "w3c": false,
+    "args": [
+    ]
+  },
+  "name": "Login Test"
+}
+12:35:28.159 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 37816
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+12:35:33.047 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+12:35:33.484 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 4d164789be9f22163412fcd8fc91a1dd (org.openqa.selenium.chrome.ChromeDriverService)
+[1565247940.660][WARNING]: Timed out connecting to Chrome, retrying...
+[1565247946.855][WARNING]: Timed out connecting to Chrome, retrying...
+[1565247952.885][WARNING]: Timed out connecting to Chrome, retrying...
+[1565247959.445][WARNING]: Timed out connecting to Chrome, retrying...
+12:36:03.671 INFO [ActiveSessions$1.onStop] - Removing session 4d164789be9f22163412fcd8fc91a1dd (org.openqa.selenium.chrome.ChromeDriverService)

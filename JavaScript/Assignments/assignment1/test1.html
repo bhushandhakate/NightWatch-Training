@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <style>
+        .mystyle1 {
+            background-color: greenyellow;
+            text-align: left
+            color:blue
+        }
+
+        .myErrorStyle {
+            background-color: red ;
+            text-align: center
+            color:blue
+        }
+
+    </style>
+    
+
+
+    <script>
+        function validate() {
+            var userid = document.getElementById('userid').value;
+            //var userid = document.getElementsByTagName('input')[0].value
+            console.log(" User id : " + userid);
+            var password = document.loginfrm.passtxt.value;
+
+            var divobject = document.getElementsByClassName('mystyle1')[0]
+            divobject.innerHTML = ''
+            if (userid.length == 0) {
+                document.getElementById('errormessage').innerHTML = 'User Id can not be blank.Please enter something'
+
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div id=errormessage class='myErrorStyle'> </div>
+    <p class='mystyle1'> This is 1st demo <br> <br> This is 2nd Demo </p>
+    <form name='loginfrm'>
+        User ID : <input type='type' name='usertxt' id='userid'> <br>
+        Password :<input type='password' name='passtxt' id='pass'> <br>
+        <input type='button' value='Login' onclick=validate()>
+        <input type='button' value='Cancel'> <br>
+
+    </form>
+</body>
+
+</html>

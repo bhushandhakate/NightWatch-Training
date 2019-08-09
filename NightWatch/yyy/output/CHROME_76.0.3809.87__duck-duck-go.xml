@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="duck-duck-go"
+    errors="1" failures="0" hostname="" id="" package="duck-duck-go" skipped="0"
+    tests="1" time="9.995" timestamp="">
+  
+    <testcase name="Demo test DuckDuckGo search" classname="duck-duck-go" time="9.995" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
